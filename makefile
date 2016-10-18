@@ -1,2 +1,2 @@
 all:
-	node app.js
+	node setup.js

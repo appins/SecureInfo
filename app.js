@@ -118,8 +118,3 @@ module.exports.ECp = function(type, it){
   }
   console.log(encoded);
 };
-
-(function(){
-  module.exports.PNumber(1, 1234567890);
-  module.exports.ECp(0x01, 3);
-})();
