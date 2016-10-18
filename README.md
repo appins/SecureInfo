@@ -1,2 +1,2 @@
-# SecureInfo
-Encode phone numbers and email adresses in non-harvestable ways.
+# Secure Info
+Encode phone numbers and email addresses in non-harvestable ways.
