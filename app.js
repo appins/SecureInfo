@@ -99,22 +99,10 @@ module.exports.ECp = function(type, it){
       }
     }
 
-    // Illiterations of encoding
-    for (var k = 0; k < it; k++){
-      var currenco = "", doubleenc = "";
-      for(var il = 0; il < encoded.length; il++ ){
-        if(decbase[encoded[il].toLowerCase()] != "err"){
-          currenco += decbase[encoded[il].toLowerCase()];
-        }
-      }
-      for(var il2 = 0; il2 < currenco.length; il2++){
-        doubleenc += base[currenco[il2]];
-      }
-      encoded = doubleenc;
-    }
 
-
-    encoded = "1&" + encodedcc + "&" + encoded + "&" + it;
+    encoded = "1&" + encodedcc + "&" + encoded;
   }
+
+  // Output encoded value
   console.log(encoded);
 };
